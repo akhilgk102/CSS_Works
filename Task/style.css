@@ -1,0 +1,52 @@
+.parent{
+    width: 50%;
+    height: 500px;
+    background-color: palevioletred;
+}
+
+.Box1{
+    width: 50%; 
+    height: 10%;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.Box2{
+    width: 75%;
+    height: 10%;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.Box3{
+    width: 100vw;
+    height: 10%;
+    background-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+
+}
+.Box4{
+    width: 50vw;
+    height: 10%;
+    border-color: black;
+    border-width: 2px;
+    background-color: chartreuse;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.Box5{
+    width: 400px;
+    height: 10%;
+    border-color: black;
+    border-width: 2px;
+    background-color:crimson;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+*{
+    margin: 0;
+}

@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    height: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+
+}
+
+.bg-success{
+     background-color: green;
+}
+.bg-warning{
+    background-color: yellow;
+}
+.bg-danger{
+    background-color: red;
+}

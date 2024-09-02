@@ -1,0 +1,20 @@
+body{
+    background-color: #f0f8ff;
+}
+
+#Welcome{
+    color: rgb(78, 42, 42);
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+form {
+    width: 300px;
+    background-color: rgb(30, 107, 184);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    flex-direction: column;
+}

@@ -1,0 +1,42 @@
+body{
+    height: 97vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.parent{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(181, 223, 231);
+    border: 1px white solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap:10px ;
+}
+.child{
+    /* height: 50%  ; */
+    border: 1px white solid;
+    background-color: aqua;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding-top: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parent>:nth-child(1),:nth-child(5){
+    grid-column: 1/4;
+    background-color: blueviolet;
+
+
+}
+
+.parent>:nth-child(3){
+    background-color: darkgray;
+    width: 600px;
+
+}

@@ -1,0 +1,29 @@
+.parent{
+    background-color: palevioletred;
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 2px;
+}
+.one{
+    width: 50%;
+    height: 35px;
+    border-style: solid;
+    background-color: blueviolet;
+    
+
+
+}
+.two{
+    width: 75%;
+    height: 20%;
+    border-style: solid;
+    background-color: greenyellow;
+}
+.three{
+    width: 50vw;
+    /* height: 35%; */
+    border-style: solid;
+    background-color: brown;
+}

@@ -1,0 +1,39 @@
+body{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    background-color: blueviolet;
+    width: 75%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;   
+    /* justify-content: space-around;    */
+    border-radius: 10px;
+    align-items: center;
+}
+
+.child{
+    height: 200px;
+    width: 20%;
+    background-color: rgb(50, 155, 155);
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    border: black 1px solid;
+}
+img{
+    height: 225px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
